@@ -1,0 +1,95 @@
+.button__dark {
+  width: 13rem;
+  background-color: var(--primary);
+  padding: 1rem 0.5rem;
+  border-radius: 50px;
+  color: var(--textColor);
+  border: none;
+  font-weight: bold;
+  font-size: 1.3em;
+}
+.button__dark__secondary {
+  width: 13rem;
+  background-color: var(--secondary);
+  padding: 1rem 0.5rem;
+  border-radius: 50px;
+  color: var(--textColor);
+  border: none;
+  font-weight: bold;
+  font-size: 1.3em;
+}
+.active__button {
+  background-color: var(--primary);
+}
+
+.inactive__button {
+  background: var(--color7);
+}
+
+.color1 {
+  background: var(--color1);
+}
+
+.color2 {
+  background: var(--color2);
+}
+
+.color3 {
+  background: var(--color3);
+}
+
+.color4 {
+  background: var(--color4);
+}
+.color1::before {
+  background-color: var(--color8);
+}
+
+.color2::before {
+  background-color: var(--color9);
+}
+
+.color3::before {
+  background-color: var(--color10);
+}
+
+.color4::before {
+  background-color: var(--color11);
+}
+
+.flex {
+  display: flex;
+}
+.justify-center {
+  justify-content: center;
+}
+.items-center {
+  align-items: center;
+}
+
+.relative {
+  position: relative;
+}
+.bold {
+  font-weight: bold;
+}
+
+.primaryText {
+  color: var(--primary);
+}
+
+.text-centre {
+  text-align: center;
+}
+.space-between {
+  justify-content: space-between;
+}
+
+.next-button {
+  background-color: var(--color5);
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  width: 10rem;
+  border: 1px solid var(--color7);
+  margin: 0 2rem;
+}

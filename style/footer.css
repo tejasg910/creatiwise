@@ -1,0 +1,46 @@
+.footer__section {
+  padding: 4rem;
+  display: flex;
+}
+
+.footer__section .company h1 {
+  font-size: 3rem;
+  color: var(--color11);
+  margin-bottom: 4rem;
+}
+.footer__section .links {
+  width: 100%;
+}
+.footer__section .links .first__container {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+.footer__section .links .first__container ul li {
+  list-style: none;
+  margin: 1rem;
+  color: var(--textColorLight);
+}
+
+.footer__section .heading {
+  font-weight: bold;
+  color: black !important;
+}
+
+.footer__section .links .contact .contact__info {
+  margin-left: -1rem;
+}
+
+.footer__section .links .contact .contact__info i {
+  margin: 0.5rem;
+}
+
+.footer__section .links .second__container {
+  margin-top: 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.footer__section .second__container .contact__heading {
+  margin: 1rem 0.5rem;
+}

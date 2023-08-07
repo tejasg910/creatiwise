@@ -116,7 +116,7 @@
 .seventh__container {
   background: url("../assets/images/seenthimg.png");
   background-color: var(--color11);
-  height: 40vh;
+  min-height: 40vh;
 }
 .seventh__container .seventh__container__content .input__span input {
   padding: 0.8rem 2rem;
@@ -141,6 +141,7 @@
 
 .seventh__container .seventh__container__content h3 {
   font-size: 3.5rem;
+  text-align: center;
 }
 .seventh__container .seventh__container__content p {
   font-size: 1.3rem;

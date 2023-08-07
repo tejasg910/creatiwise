@@ -93,3 +93,11 @@
     padding: 0 !important;
   }
 }
+@media screen and (max-width: 550px) {
+  .filter__container .filter a {
+    display: none;
+  }
+  .filter__container .filter {
+    margin: 1rem 0;
+  }
+}
